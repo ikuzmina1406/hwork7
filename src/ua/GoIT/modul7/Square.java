@@ -1,6 +1,6 @@
 package ua.GoIT.modul7;
 
-public class Square extends Shape{
+public class Square extends Shape {
 
     @Override
     public void printName() {
