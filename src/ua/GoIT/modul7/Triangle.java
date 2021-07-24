@@ -6,4 +6,11 @@ public class Triangle extends Shape {
     public void printName() {
         System.out.println("Треугольник");
     }
+
+    @Override
+    public String toString() {
+        return "Треугольник";
+    }
 }
+
+

@@ -6,4 +6,9 @@ public class Square extends Shape {
     public void printName() {
         System.out.println("Прямоугольник");
     }
+
+    @Override
+    public String toString() {
+        return "Прямоугольник";
+    }
 }

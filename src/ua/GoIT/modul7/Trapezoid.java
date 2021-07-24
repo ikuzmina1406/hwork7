@@ -6,4 +6,9 @@ public class Trapezoid extends Shape {
     public void printName() {
         System.out.println("Трапеция");
     }
+
+    @Override
+    public String toString() {
+        return "Трапеция";
+    }
 }

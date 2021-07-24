@@ -5,4 +5,10 @@ public class Quad extends Shape {
     public void printName() {
         System.out.println("Квадрат");
     }
+
+    @Override
+    public String toString() {
+        return "Квадрат";
+    }
+
 }

@@ -27,5 +27,10 @@ public class Main {
         trapezoid.printName();
 
         circle.calcSquare();
+
+        PrintShape.printName(trapezoid);
+
     }
+
 }
+
